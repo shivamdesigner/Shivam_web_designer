@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.headlogo{
+	background-color:yellow;
+	width:15%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.headnav{
+	background-color:yellow;
+	width:85%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.button{
+	background-color: red;
+	color:white;
+	border-radius:5px;
+    text-align: center;
+    padding: 10px;
+}
+.banner{
+	background-image: url(mae-mu-GIUc-l74UT8-unsplash.jpg);
+	background-size: 1000% 100%;
+	text-align: center;
+	width: 100%;
+	height:auto;
+	float: left;
+	padding: 100px;
+	color:white;
+	font-size: 30px;
+}
+.navbar{
+	background-color: lightgrey;
+	width: 100%;
+	height:auto;
+	float: left;
+}
+.sidebar{
+	width: 15%;
+	height:auto;
+	float: left;
+	background-color: #fce26d;
+	padding: 10px;
+}
+.sidebar img{
+	width: 100%;
+	border-radius: 10px
+}
+.mainbar{
+	width: 85%;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+.box1{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	border:solid 2px blue;
+}
+.box2{
+	width:60%;
+	height:auto;
+	float:left;
+	padding:10px;
+
+}
+.box3{
+	
+	background-color:orange;
+	border:solid 2px black;
+	border-radius:20px;
+	padding:10px;
+	
+}
+
+.box3pad{
+	width:25%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+
+
+.footer{
+	background-color:Black;
+	color:White;
+	width:25%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+

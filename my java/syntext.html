@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="test" style="color: red" >shivam</h1>
+	<h1 id="demo"></h1>
+	<script>
+        
+		var name="shivam";
+		document.write(name);
+
+		document.write("yes i am fine");
+		document.write("<h3>yes i am fine</h3>");
+		document.write("<h3>hello:<i>" +name+ "</i></h3>");
+
+		document.getElementById("test").innerHTML="HELOO";
+		document.getElementById("test").style.color="blue";
+
+		var a=10;
+		var b=10;
+		var c=a+b;
+ 		if(c>30)
+ 	{	
+		document.getElementById('demo').innerHTML=c + "you are pass";
+		document.getElementById('demo').style.color="green";
+	}
+
+	
+	  {
+	    document.getElementById('demo').innerHTML=c + "you are fail "
+	 
+	   document.getElementById('demo').style.color="red"
+	}
+	</script>
+</body>
+</html>
