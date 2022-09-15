@@ -6,6 +6,14 @@
 a{
   text-decoration: none;
 }
+a:hover{
+  text-decoration: none;
+}
+.oberoi_One{
+  display:none ;
+  border: 2px solid red;
+
+}
 #first a{
 	color: white;
 	
@@ -88,16 +96,26 @@ a{
 
 #datetime{
 	position:relative;
-	top:-100px;
+	top:-90px;
 	height: auto;
 	border-image-source:linear-gradient(to bottom left,#f78ae0,#6638f0) ;
 }
-#siteborder{
+@media only screen and (max-width: 700px){
+  #datetime{
+    display: none;
+  }
+}
+
+.siteborder{
 	border-right: 1px solid orange;
 }
 .border_none{
 	box-shadow: none;
-	margin-top: 20px;
+	margin-top: 2px;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 #whT{
 	font-size: 40PX;
@@ -107,68 +125,53 @@ a{
 #traveller{
 	font-size: 25px;
 }
-#border_backsite{
-	width: 100%;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 40px;
-    background: url(img/ob-select-bg.jpg) center top no-repeat;
-    background-size: 100%;
-    min-height: 180px;
-}
-@media screen and (max-height: 450px) {
-  #border_backsite{
-  	width: auto;
-  	width: 100%;
-  }
-}
-#content-box {
-    width: 60%;
-    float: left;
-    text-align: center;
-    padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-#border_backsite h2{  
-    font-family: "EB Garamond", serif;
-    font-style: italic;
-    font-size: 24px;
-    padding-bottom: 20px;
-    position: relative;
-    padding: 0%;
-    align-items: center;
-    left: 30%;
-    color: #c7af58;
+.oberoy_img{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-#liti {
-    position: absolute;
-    width: 40%;
-    height: 2px;
-    content: "";
-    left: 50%;
-    background: url(img/title-after-bg.jpg) center top no-repeat;
-    background-size: 100%;
-    transform: translate(-50%, 0);
-}
-#border_backsite h3{  
-    font-family: "EB Garamond", serif;
-    font-style: italic;
-    font-size: 24px;
-    /* font-weight: 300; */
-    color: #c7af58; 
-    padding-bottom: 20px;
-    position: relative;
-    padding: 0%;
+.contain-bg{
+  width: 100%;
+    float: left;
     align-items: center;
-    left: 20%;
+    padding: 40px;
+    background-size: 100%;
+    min-height: 180px;
+    position: relative;
 }
-#btn-1{
-	width: 20%;
-	display: flex;
+.logo-contain{
+  width:100%;
+  height:auto;
+  /*border:solid 5px red;*/
+  position: absolute;
+  margin-top: 137px;
+  margin-left: 138px;
+}
+.box-img{
+  margin-top: 70px;
+  position: relative;
+}
+.content-img{
+    margin-top: -128px;
+    margin-left: -824px;
+}
+
+.box-contain{
+  margin-top: -60px;
+  color: #c7af58;
+  font-family: "EB Garamond", serif;
+}
+.box-contain h2{
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+}
+.button1{
+    padding: 12px 54px;
+    background-color: #d8be5e;
+    float: right;
+    position: relative;
+    margin-right: 165px;
+    margin-top: -98px;
 }
 #Experiences-pading{
 	padding: 5%;
@@ -182,7 +185,45 @@ a{
 #border_right{
     border-right: 1px solid orange;
 }
- /* menu bar destions.css */
+/* silder3.css */
+.oberoy_padding_imgin{
+  padding: 100px 20px 30px 50px;
+}
+.oberoy_padding_p{
+  padding-right:250px ;
+}
+.forest{
+  font-size: 40px;
+  font-style: italic;
+      font-family: "EB Garamond",serif;
+}
+.img_inr_pading{
+  padding: 5%;
+}
+.expolar_oberoy{
+  text-decoration: none;
+  font-size: 20px;
+  color: #6abbd9;
+
+}
+@media screen and (max-height: 758px) {
+  .oberoy_padding_p{
+    padding-right:150px ;
+  }
+}
+@media screen and (max-height: 270px) {
+  .oberoy_padding_p{
+    padding-right:1px ;
+  }
+}
+/* silder3 end.css */
+
+ /* menu bar contus us.css */
+
+
+.vv{
+  padding: 2%;
+}
  .contact_us{
    font-family: "EB Garamond",serif;
     font-size: 2.5em;
@@ -196,11 +237,150 @@ a{
 
  @media screen and (max-height: 580px) {
   #contact_us{
-  	font-size: 20px;
+  	font-size: 20px ;
   	
   }
+}
+.nothing{
+   --bs-gutter-x: 0%;
+}
+.border_{
+  border-bottom:1px solid silver ;
+}
+.padding_oberoimenu{
+  padding: 5%;
+  display: none;
 }
 .from_in_pdding{
 	padding-right:5% ;
 	padding-left: 5%;
+}
+.query_from{
+  background-color: none;
+}
+.reset_btn1{
+  color: #66b6d8;
+  font-size: 20px;
+}
+.submit_btn1{
+  color: #d8741b;
+  font-size: 20px;
+}
+.boder_none ul li{
+  border: none;
+  background-color: transparent;
+}
+.card_1{
+  --bs-gutter-x: 0%;
+  padding: 50px;
+}
+.mr{
+  margin-left: 5%;
+}
+footer{
+  background: url(img/footer-bg.jpg);
+  margin-top: 50px;
+    overflow: hidden;
+    float: left;
+    
+}
+.oberoi_pading_footer{
+  padding: 5%;
+}
+.li_color li a {
+  color: white;
+}
+.li_color li a:hover{
+  color:  #e4bf5c;
+}
+.li_color li i{
+  color: white;
+}
+.li_color li i:hover{
+  color:  #e4bf5c;
+}
+/*Destinations */
+.Destinations{
+    font-family: "EB Garamond",serif;
+    font-size: 2.188em;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+.bg_li_ul{
+    
+    color: black;
+  }
+.bg_li_ul ul li{
+  background-color: #f8f8f8;
+  list-style: none;
+  padding: 10px;
+}  
+.bg_li_ul ul li a{
+  color: black;
+  font-size: 20PX;
+}
+.bg_li_ul : hover{
+  background-color: whitesmoke;
+}
+.bg_li_ul ul li a:hover{
+  color:#d8741b ;
+  
+}
+.bg_li_ul ul li:hover{
+  background-color: white;
+  border-left:2px solid #d8741b ;
+}
+.bg_li_ul_2{
+  
+  padding: 5px;
+  
+}
+.bg_li_ul_2 ul li{
+  list-style: none;
+  padding: 5px;
+}
+.bg_li_ul_2 ul li a{
+  color: black;
+  font-size: 20px;
+}
+.bg_li_ul_2 ul li a:hover{
+  color:#d8741b ;
+}
+
+.map2{
+  display: none;
+}
+.mobile_cta{
+  display: none;
+}
+@media only screen and (max-width: 700px){
+  .mobile_cta{
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+  }
+  .mobile_cta a{
+    padding: 15px 8px;
+    width: 50%;
+    color: #fff;
+    font-size: 0.938em;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+  }
+  .mobile_cta a.chat_btn1{
+    background-color: #000a48;
+  }
+  .mobile_cta a.booking_btn1{
+    background-color: #d8741b;
+  }
+}
+.knowe_ore_btn{
+  background-color: #cc6c16;
 }
