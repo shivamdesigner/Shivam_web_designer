@@ -172,15 +172,21 @@
                     <div class="col-md-5 siteborder">
                       <form >
                         <div class="row">
+                          <script>
+                            {
+                            var today =new Date();
+                            var time = (today.getDate()+"/"+today.getMonth()+"/"+today.getYears() );
+                            document.getElementById("time").innerHTML= time;
+                            }
+                          </script>
                         <div class="col-md-6">
-                        <label>Check-In</label>
-                      <input type="date" name="">
+                          <p id="time"></p>
                       </div>
                       <div class="col-md-6">
                       <label>Check-out</label>
                       <input type="date" name="">
                       </div>
-                    </div>
+                        </div>
                       </form>
                     </div>
                     <div class="col-md-1 siteborder">
